@@ -1,0 +1,71 @@
+This dataset contains the averages of the following variables:
+tBodyAcc-mean()-X	The mean of the action tBodyAcc in direction X
+tBodyAcc-mean()-Y	The mean of the action tBodyAcc in direction Y
+tBodyAcc-mean()-Z	The mean of the action tBodyAcc in direction Z
+tBodyAcc-std()-X	The standard deviation of the action tBodyAcc in direction X
+tBodyAcc-std()-Y	The standard deviation of the action tBodyAcc in direction Y
+tBodyAcc-std()-Z	The standard deviation of the action tBodyAcc in direction Z
+tGravityAcc-mean()-X	The mean of the action tGravityAcc in direction X
+tGravityAcc-mean()-Y	The mean of the action tGravityAcc in direction Y
+tGravityAcc-mean()-Z	The mean of the action tGravityAcc in direction Z
+tGravityAcc-std()-X	The standard deviation of the action tGravityAcc in direction X
+tGravityAcc-std()-Y	The standard deviation of the action tGravityAcc in direction Y
+tGravityAcc-std()-Z	The standard deviation of the action tGravityAcc in direction Z
+tBodyAccJerk-mean()-X	The mean of the action tBodyAccJerk in direction X
+tBodyAccJerk-mean()-Y	The mean of the action tBodyAccJerk in direction Y
+tBodyAccJerk-mean()-Z	The mean of the action tBodyAccJerk in direction Z
+tBodyAccJerk-std()-X	The standard deviation of the action tBodyAccJerk in direction X
+tBodyAccJerk-std()-Y	The standard deviation of the action tBodyAccJerk in direction Y
+tBodyAccJerk-std()-Z	The standard deviation of the action tBodyAccJerk in direction Z
+tBodyGyro-mean()-X	The mean of the action tBodyGyro in direction X
+tBodyGyro-mean()-Y	The mean of the action tBodyGyro in direction Y
+tBodyGyro-mean()-Z	The mean of the action tBodyGyro in direction Z
+tBodyGyro-std()-X	The standard deviation of the action tBodyGyro in direction X
+tBodyGyro-std()-Y	The standard deviation of the action tBodyGyro in direction Y
+tBodyGyro-std()-Z	The standard deviation of the action tBodyGyro in direction Z
+tBodyGyroJerk-mean()-X	The mean of the action tBodyGyroJerk in direction X
+tBodyGyroJerk-mean()-Y	The mean of the action tBodyGyroJerk in direction Y
+tBodyGyroJerk-mean()-Z	The mean of the action tBodyGyroJerk in direction Z
+tBodyGyroJerk-std()-X	The standard deviation of the action tBodyGyroJerk in direction X
+tBodyGyroJerk-std()-Y	The standard deviation of the action tBodyGyroJerk in direction Y
+tBodyGyroJerk-std()-Z	The standard deviation of the action tBodyGyroJerk in direction Z
+tBodyAccMag-mean()	The mean of the action tBodyAccMag
+tBodyAccMag-std()	The standard deviation of the action tBodyAccMag
+tGravityAccMag-mean()	The mean of the action tGravityAccMag
+tGravityAccMag-std()	The standard deviation of the action tGravityAccMag
+tBodyAccJerkMag-mean()	The mean of the action tBodyAccJerkMag
+tBodyAccJerkMag-std()	The standard deviation of the action tBodyAccJerkMag
+tBodyGyroMag-mean()	The mean of the action tBodyGyroMag
+tBodyGyroMag-std()	The standard deviation of the action tBodyGyroMag
+tBodyGyroJerkMag-mean()	The mean of the action tBodyGyroJerkMag
+tBodyGyroJerkMag-std()	The standard deviation of the action tBodyGyroJerkMag
+fBodyAcc-mean()-X	The mean of the action fBodyAcc in direction X
+fBodyAcc-mean()-Y	The mean of the action fBodyAcc in direction Y
+fBodyAcc-mean()-Z	The mean of the action fBodyAcc in direction Z
+fBodyAcc-std()-X	The standard deviation of the action fBodyAcc in direction X
+fBodyAcc-std()-Y	The standard deviation of the action fBodyAcc in direction Y
+fBodyAcc-std()-Z	The standard deviation of the action fBodyAcc in direction Z
+fBodyAccJerk-mean()-X	The mean of the action fBodyAccJerk in direction X
+fBodyAccJerk-mean()-Y	The mean of the action fBodyAccJerk in direction Y
+fBodyAccJerk-mean()-Z	The mean of the action fBodyAccJerk in direction Z
+fBodyAccJerk-std()-X	The standard deviation of the action fBodyAccJerk in direction X
+fBodyAccJerk-std()-Y	The standard deviation of the action fBodyAccJerk in direction Y
+fBodyAccJerk-std()-Z	The standard deviation of the action fBodyAccJerk in direction Z
+fBodyGyro-mean()-X	The mean of the action fBodyGyro in direction X
+fBodyGyro-mean()-Y	The mean of the action fBodyGyro in direction Y
+fBodyGyro-mean()-Z	The mean of the action fBodyGyro in direction Z
+fBodyGyro-std()-X	The standard deviation of the action fBodyGyro in direction X
+fBodyGyro-std()-Y	The standard deviation of the action fBodyGyro in direction Y
+fBodyGyro-std()-Z	The standard deviation of the action fBodyGyro in direction Z
+fBodyAccMag-mean()	The mean of the action fBodyAccMag
+fBodyAccMag-std()	The standard deviation of the action fBodyAccMag
+fBodyBodyAccJerkMag-mean()	The mean of the action fBodyBodyAccJerkMag
+fBodyBodyAccJerkMag-std()	The standard deviation of the action fBodyBodyAccJerkMag
+fBodyBodyGyroMag-mean()	The mean of the action fBodyBodyGyroMag
+fBodyBodyGyroMag-std()	The standard deviation of the action fBodyBodyGyroMag
+fBodyBodyGyroJerkMag-mean()	The mean of the action fBodyBodyGyroJerkMag
+fBodyBodyGyroJerkMag-std()	The standard deviation of the action fBodyBodyGyroJerkMag
+More information on the actions and measurements can be obtained from the features and features_info files that can be obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Data Transformation:
+Only the mean and standard deviation columns was gathered from the original data set. The column means for taken over the data and used to create a the new data set.
